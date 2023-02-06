@@ -31,8 +31,8 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_30PPM=y
 CONFIG_ZMK_USB_LOGGING=y
 
 # # Turn on logging, and set ZMK logging to debug output
-# CONFIG_LOG=y
-# CONFIG_ZMK_LOG_LEVEL_DBG=y
+CONFIG_LOG=y
+CONFIG_ZMK_LOG_LEVEL_DBG=y
 
 # Turn on uf2 build
 CONFIG_BUILD_OUTPUT_UF2=y
